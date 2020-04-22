@@ -9,15 +9,13 @@
 RAID를 사용했을때 기대효과 <br>
  -대용량의 단일 볼륨을 사용하는 효과 <br>
  -디스크I/O 병렬화로 인한 성능 향상 `RAID 0, RAID 5, RAID 6등` <br>
- -데이터 복제로 인한 안정성 향상 `RAID 1 등` <br>
+ -데이터 복제로 인한 안정성 향상 `RAID 1 등`
  
 ----
 RAID는 컴퓨터를 구성하는 여러 부품중 기계적인 특성 때문에 상대적으로 속도가 느린 하드디스크를 보완하기 위해 만든 기술입니다. <br>
 RAID를 구성하는 디스크의 개수가 같아도, RAID의 구성방식에 따라 성능, 용량이 바뀌게 됩니다. <br>
-이 구성방식을 RAID Level 이라고 부르는데 여러가지 방식의 RAID Level이 있습니다.
-
-----
-먼저 기본적인 RAID Level `Standard RAID Level`입니다. <br>
+이 구성방식을 RAID Level 이라고 부르는데 여러가지 방식의 RAID Level이 있습니다. <br>
+기본적인 RAID Level `Standard RAID Level` 입니다. <br>
 최근 출시되는 RAID 컨트롤러에서 사용가능한 RAID Level은 RAID 0, RAID 1, RAID 5, RAID 6 입니다. <br>
 RAID를 구성하는 디스크는 종류와 크기가 같은 것을 사용하는 것이 좋습니다.
 
