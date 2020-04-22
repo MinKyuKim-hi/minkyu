@@ -1,4 +1,4 @@
-##RAID
+#RAID
 
 **RAID** `Redundant Array of Independent Disk` 독립된 디스크의 복수 배열 혹은 `Redundant Array of Inexpensive Disk` 저렴한 디스크의 복수 배열의
 약자입니다. 여러개의 디스크를 배열하여 속도의 증대, 안정성, 효율성, 가용성의 증대를 하는데 쓰이는 기술입니다. 
