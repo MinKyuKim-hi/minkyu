@@ -74,9 +74,7 @@ RAID 6은 RAID 5와 같은 개념이지만 다른 드라이브들 간에 분포�
 
 ----
 **Nested RAID `중첩 RAID`** <br>
-Nested RAID는 Standard RAID를 여러개 중첩하여 사용합니다. 즉 복수의 Standard RAID를 또 RAID로 묶습니다.
+Nested RAID는 Standard RAID를 여러개 중첩하여 사용합니다. 즉 복수의 Standard RAID를 또 RAID로 묶습니다. <br>
 예를 들어 2개의 RAID 0를 RAID 1로 묶습니다. `RAID 0+1 혹은 RAID01` <br>
 2개의 RAID 1을 RAID 0로 묶을 수도 있습니다. `RAID 1+0 혹은 RAID 10` <br>
 2개의 RAID 1을 묶은 RAID 0 2개를 RAID 0로 묶는 경우도 있는 것 같습니다. `RAID 10+0`
-
-
