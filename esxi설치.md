@@ -115,5 +115,6 @@ esxi 뒤에 숫자는 버전마다 다름.
 * 이처럼 vm파일을 찾아서 경로로 들어간후 makevm.sh 파일에 실행권한을 주는 명령어 chmod +-를 활용해 권한을 줍니다.
 ![주석 2020-04-27 161603](https://user-images.githubusercontent.com/63625609/80344369-6cd1f500-88a2-11ea-8941-9f6e3fc39f11.png)
 * ./makevm.sh /vmfs/volumes/datastore1/win_01/ win_1.vmx win_ 110 114 를 입력합니다. 지금 실행할거냐는 질문에 y입력
-
+![주석 2020-04-27 161807](https://user-images.githubusercontent.com/63625609/80344561-c0444300-88a2-11ea-82af-248a51cf1ead.png)
+생성완료 esxi로 접속해서 확인해 보면
 
