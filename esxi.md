@@ -1,5 +1,5 @@
 # esxi 설치
-1. 홈페이지 접속
+1. 홈페이지 접속 <br>
 다운로드 전에 알아야 할 것으로 esxi는 `무료 vSphere Hypervisor` 나 `유료 vSphere`로 제공됩니다. <br>
 우리는 무료인 vSphere Hypervisor에 대해서 알아보겠습니다. <br>
 VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.com/kr.html 클릭 또는 검색해서 접속해줍니다. <br>
@@ -11,8 +11,10 @@ VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.c
 가운데 메뉴의 `License & Download` 를 클릭합니다. 무료이긴 하지만 로그인을 해야 다운로드가 가능하며 무료 License가 발행 됩니다.
 
 -----
-2. 설치 USB만들기
+2. 설치 USB만들기 <br>
 다운로드 받은 파일을 RUFUS 프로그램을 사용해서 USB에 설치합니다.
+![RUFUS-1](https://user-images.githubusercontent.com/63625609/80326713-a25fe980-8874-11ea-900b-44c7e3ed1a21.png)
+* 장치 : os를 설치할 usb를 선택합니다. <br>
 
 ![esx11](https://user-images.githubusercontent.com/63625609/80325068-b0ab0700-886e-11ea-84fc-77492fdb7cbe.png)
 esxi 뒤에 숫자는 버전마다 다름. 
