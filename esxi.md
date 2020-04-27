@@ -83,3 +83,9 @@ esxi 뒤에 숫자는 버전마다 다름.
 ![esxi-datastore-2](https://user-images.githubusercontent.com/63625609/80327409-f7046400-8876-11ea-99c6-e28df839c893.png)
 * 이름에 데이터 스토어 이름을 영문으로 적어줍니다 대소문자 구별 가능.
 * 데이터 스토어로 사용할 HDD 및 SSD를 선택합니다.
+![esxi-datastore-3](https://user-images.githubusercontent.com/63625609/80327475-29ae5c80-8877-11ea-8acd-fe021fa30f52.png)
+* VMFS 버전을 선택합니다. 본인 용도에 맞게 설정합니다. 
+*VMFS 6: esxi 이하 버전을 사용 하지 못합니다.
+*VMFS 5: esxi 이하 버전을 사용 가능합니다.
+
+* 위의 방법은 전체 디스크를 데이터 스토어로 사용하는 방법입니다. 나눠서 사용하고 싶으신분들은 `전체 디스크 사용`에서 변경하시면 됩니다.
