@@ -1,4 +1,9 @@
 # esxi 설치
+1. 홈페이지 접속
+다운로드 전에 알아야 할 것으로 esxi는 `무료 vSphere Hypervisor` 나 `유료 vSphere`로 제공됩니다. <br>
+우리는 무료인 vSphere Hypervisor에 대해서 알아보겠습니다. <br>
+VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.com/kr.html 클릭 또는 검색해서 접속해줍니다. <br>
+
 ![esx11](https://user-images.githubusercontent.com/63625609/80325068-b0ab0700-886e-11ea-84fc-77492fdb7cbe.png)
 esxi 뒤에 숫자는 버전마다 다름. 
 ![esx12](https://user-images.githubusercontent.com/63625609/80325149-efd95800-886e-11ea-90f4-0a3c9f8e4639.png)
@@ -37,3 +42,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 ![esxi-vm4-1](https://user-images.githubusercontent.com/63625609/80326128-b86caa80-8872-11ea-941a-fcf4bcc0295d.png) <br>
 로그인후 esxi서버 웹페이지 화면입니다. server사양 및 esxi 버전 등 대략적인 것들을 한눈에 볼 수 있습니다. <br>
 저는 이미 몇가지를 사용중 이기에 왼쪽에 가상시스템 및 네트워크, 스토리지에 숫자가 표기 됩니다. esxi의 모든 설정을 하는 화면입니다.
+
+-----
