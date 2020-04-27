@@ -16,10 +16,12 @@ VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.c
 ![RUFUS-1](https://user-images.githubusercontent.com/63625609/80326713-a25fe980-8874-11ea-900b-44c7e3ed1a21.png)
 * 장치 : os를 설치할 usb를 선택합니다. <br>
 * 디스크 형식과 부팅 시스템 유형 : MBR파티션 형식의 BIOS 또는 UEFI(BIOS호환)을 선택합니다. <br>
+ 
  *MBR(MASTER BOOT RECORD) : 가장 보편화된 디스크 파티션 기술로 디스크의 첫번재 센터를 말한다. <br>
  *GPT(GUID PARTION TABLE) : MBR의 기술적 제한의 해결하기 위해 나온 디스크 파티션 기술을 말합니다. <br>
  *BIOS(BASIC INPUT/OUTPUT SYSTEM) : 메이보드에 내장된 펌웨어로 CUI 기반입니다. <br>
  *UEFI(UNIFIED EXTENSIBLE FIRMWARE INTERFACE) : BIOS의 발전형이며 GUI 기반의 펌웨어입니다. <br>
+
 * 파일시스템 : FAT32(기본) 선택 합니다.
 * 할당 단위 크기 : 4096 bytes(기본) 선택합니다.
 * 새 볼륨 레이블 : USB 이름을 정합니다. 그냥 놔두면 알아서 됩니다.
