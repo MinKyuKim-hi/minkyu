@@ -30,4 +30,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 확인합니다. ex) 192.168.0.238 접속주소는 https://192.168.0.238/ui 입니다. https를 사용하기에 보안 오류가 있을 수 있습니다.
 ![esxi-vm2](https://user-images.githubusercontent.com/63625609/80325927-1e0c6700-8872-11ea-8d71-652cbbad6483.png)
 중간 부분에 `고급` 을 클릭합니다.
-
+![esxi-vm3-1](https://user-images.githubusercontent.com/63625609/80325970-4005e980-8872-11ea-8252-a162ddba982a.png)
+밑에 `192.168.0.238(안전하지 않음)` 을 클릭하여 웹페이지를 이동합니다.
