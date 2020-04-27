@@ -21,3 +21,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 `F11` 을 눌러 설치를 진행합니다.
 ![esx-22](https://user-images.githubusercontent.com/63625609/80325654-fcf74680-8870-11ea-8eea-24f4d772dde3.png)
 설치가 진행됩니다. 100% 완료가 될때까지 시간이 조금 걸리니 기다려주시면 됩니다.
+![esx-24](https://user-images.githubusercontent.com/63625609/80325687-2021f600-8871-11ea-831b-0296c94bdeef.png)
+`Enter` 를 눌러 Reboot하면 esxi 설치 완료.
