@@ -15,11 +15,11 @@ esxi 뒤에 숫자는 버전마다 다름.
 설치할 장치를 선택하면 됩니다. HDD나 SSD에 설치 해도 되고 USB에도 설치할 수 있습니다.
 ![esx18](https://user-images.githubusercontent.com/63625609/80325453-2499df00-8870-11ea-916d-396fa65041dc.png)
 키보드 레이아웃 선택화면입니다. `US Default` 를 선택합니다.
-![다운로드](https://user-images.githubusercontent.com/63625609/80325537-8e19ed80-8870-11ea-9b9a-ba804af22274.png)
-서버 접속 root계정 비밀번호 설정화면입니다. 위아래 같은 비밀번호를 적은후 `Enter` 를 눌러 진행합니다.
-![다운로드 (1)](https://user-images.githubusercontent.com/63625609/80325605-d20cf280-8870-11ea-82b0-34218a4e899c.png)
+![다운로드](https://user-images.githubusercontent.com/63625609/80325537-8e19ed80-8870-11ea-9b9a-ba804af22274.png) <br>
+서버 접속 root계정 비밀번호 설정화면입니다. 위아래 같은 비밀번호를 적은후 `Enter` 를 눌러 진행합니다. <br>
+![다운로드 (1)](https://user-images.githubusercontent.com/63625609/80325605-d20cf280-8870-11ea-82b0-34218a4e899c.png) <br>
 `F11` 을 눌러 설치를 진행합니다.
-![esx-22](https://user-images.githubusercontent.com/63625609/80325654-fcf74680-8870-11ea-8eea-24f4d772dde3.png)
+![esx-22](https://user-images.githubusercontent.com/63625609/80325654-fcf74680-8870-11ea-8eea-24f4d772dde3.png) <br>
 설치가 진행됩니다. 100% 완료가 될때까지 시간이 조금 걸리니 기다려주시면 됩니다.
-![esx-24](https://user-images.githubusercontent.com/63625609/80325687-2021f600-8871-11ea-831b-0296c94bdeef.png)
+![esx-24](https://user-images.githubusercontent.com/63625609/80325687-2021f600-8871-11ea-831b-0296c94bdeef.png) <br>
 `Enter` 를 눌러 Reboot하면 esxi 설치 완료.
