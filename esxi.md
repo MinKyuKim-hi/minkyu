@@ -9,3 +9,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 설치를 진행하려면 `Enter` 취소하려면 `Esc` 를 누르면 됩니다.
 ![esx15](https://user-images.githubusercontent.com/63625609/80325302-8c9bf580-886f-11ea-940c-7d51f38acb26.png)
 최종 사용자 동의문입니다. `F11` 을 눌러 동의하면 진행됩니다.
+![esx16](https://user-images.githubusercontent.com/63625609/80325344-c40aa200-886f-11ea-9d88-32712f8e0b89.png)
+디바이스를 찾는 동안 기다려 주시면 됩니다.
