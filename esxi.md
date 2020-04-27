@@ -7,6 +7,12 @@ VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.c
 왼쪽에 메뉴의 `다운로드` 를 클릭합니다.
 ![esxi2](https://user-images.githubusercontent.com/63625609/80326523-06ce7900-8874-11ea-9c25-9e5d4556c2bd.png)
 무료 제품다운로드 항목중 `vSphere Hypervisor` 를 클릭합니다.
+![esxi3](https://user-images.githubusercontent.com/63625609/80326579-3e3d2580-8874-11ea-8d72-0d349700161c.png)
+가운데 메뉴의 `License & Download` 를 클릭합니다. 무료이긴 하지만 로그인을 해야 다운로드가 가능하며 무료 License가 발행 됩니다.
+
+-----
+2. 설치 USB만들기
+다운로드 받은 파일을 RUFUS 프로그램을 사용해서 USB에 설치합니다.
 
 ![esx11](https://user-images.githubusercontent.com/63625609/80325068-b0ab0700-886e-11ea-84fc-77492fdb7cbe.png)
 esxi 뒤에 숫자는 버전마다 다름. 
