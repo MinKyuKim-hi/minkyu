@@ -11,3 +11,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 최종 사용자 동의문입니다. `F11` 을 눌러 동의하면 진행됩니다.
 ![esx16](https://user-images.githubusercontent.com/63625609/80325344-c40aa200-886f-11ea-9d88-32712f8e0b89.png)
 디바이스를 찾는 동안 기다려 주시면 됩니다.
+![esx17](https://user-images.githubusercontent.com/63625609/80325383-e8667e80-886f-11ea-97c3-542d30e9a17e.png)
+설치할 장치를 선택하면 됩니다. HDD나 SSD에 설치 해도 되고 USB에도 설치할 수 있습니다.
