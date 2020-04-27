@@ -117,4 +117,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 * ./makevm.sh /vmfs/volumes/datastore1/win_01/ win_1.vmx win_ 110 114 를 입력합니다. 지금 실행할거냐는 질문에 y입력
 ![주석 2020-04-27 161807](https://user-images.githubusercontent.com/63625609/80344561-c0444300-88a2-11ea-82af-248a51cf1ead.png)
 생성완료 esxi로 접속해서 확인해 보면
-
+![주석 2020-04-27 161941](https://user-images.githubusercontent.com/63625609/80344687-f2ee3b80-88a2-11ea-8413-d36609dda20d.png)
+* win_110~win_114 가 생성된 것을 확인할 수 있습니다. 
