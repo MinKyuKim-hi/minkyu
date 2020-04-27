@@ -28,4 +28,6 @@ esxi 뒤에 숫자는 버전마다 다름.
 1. esxi web 접속 <br>
 접속하기 위해서는 esxi가 설치된 서버의 ip주소를 알아야 합니다. esxi서버 설치가 완료되면 `F2` 를 눌러 root 계정을 로그인하고 ip주소를 설정 및 <br>
 확인합니다. ex) 192.168.0.238 접속주소는 https://192.168.0.238/ui 입니다. https를 사용하기에 보안 오류가 있을 수 있습니다.
+![esxi-vm2](https://user-images.githubusercontent.com/63625609/80325927-1e0c6700-8872-11ea-8d71-652cbbad6483.png)
+중간 부분에 `고급` 을 클릭합니다.
 
