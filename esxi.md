@@ -13,3 +13,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 디바이스를 찾는 동안 기다려 주시면 됩니다.
 ![esx17](https://user-images.githubusercontent.com/63625609/80325383-e8667e80-886f-11ea-97c3-542d30e9a17e.png)
 설치할 장치를 선택하면 됩니다. HDD나 SSD에 설치 해도 되고 USB에도 설치할 수 있습니다.
+![esx18](https://user-images.githubusercontent.com/63625609/80325453-2499df00-8870-11ea-916d-396fa65041dc.png)
+키보드 레이아웃 선택화면입니다. `US Default` 를 선택합니다.
