@@ -34,3 +34,6 @@ esxi 뒤에 숫자는 버전마다 다름.
 밑에 `192.168.0.238(안전하지 않음)` 을 클릭하여 웹페이지를 이동합니다.
 ![esxi-vm1-1](https://user-images.githubusercontent.com/63625609/80326034-780d2c80-8872-11ea-9dc1-94378c0c0c98.png) <br>
 로그인 화면이 나오면 ID는 `root` 를 입력 암호는 설치시 적었던 비밀번호를 입력후 로그인을 클릭하시면 됩니다.
+![esxi-vm4-1](https://user-images.githubusercontent.com/63625609/80326128-b86caa80-8872-11ea-941a-fcf4bcc0295d.png) <br>
+로그인후 esxi서버 웹페이지 화면입니다. server사양 및 esxi 버전 등 대략적인 것들을 한눈에 볼 수 있습니다. <br>
+저는 이미 몇가지를 사용중 이기에 왼쪽에 가상시스템 및 네트워크, 스토리지에 숫자가 표기 됩니다. esxi의 모든 설정을 하는 화면입니다.
