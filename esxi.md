@@ -19,3 +19,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 서버 접속 root계정 비밀번호 설정화면입니다. 위아래 같은 비밀번호를 적은후 `Enter` 를 눌러 진행합니다.
 ![다운로드 (1)](https://user-images.githubusercontent.com/63625609/80325605-d20cf280-8870-11ea-82b0-34218a4e899c.png)
 `F11` 을 눌러 설치를 진행합니다.
+![esx-22](https://user-images.githubusercontent.com/63625609/80325654-fcf74680-8870-11ea-8eea-24f4d772dde3.png)
+설치가 진행됩니다. 100% 완료가 될때까지 시간이 조금 걸리니 기다려주시면 됩니다.
