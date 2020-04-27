@@ -17,3 +17,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 키보드 레이아웃 선택화면입니다. `US Default` 를 선택합니다.
 ![다운로드](https://user-images.githubusercontent.com/63625609/80325537-8e19ed80-8870-11ea-9b9a-ba804af22274.png)
 서버 접속 root계정 비밀번호 설정화면입니다. 위아래 같은 비밀번호를 적은후 `Enter` 를 눌러 진행합니다.
+![다운로드 (1)](https://user-images.githubusercontent.com/63625609/80325605-d20cf280-8870-11ea-82b0-34218a4e899c.png)
+`F11` 을 눌러 설치를 진행합니다.
