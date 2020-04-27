@@ -107,3 +107,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 * https://mobaxterm.mobatek.net/  페이지에 접속합니다.
 ![주석 2020-04-27 160210](https://user-images.githubusercontent.com/63625609/80343253-8114f280-88a0-11ea-8be1-46875c05c814.png)
 * 중간의 `GET MOBAXTERM NOW!` 버튼을 클릭합니다.
+![주석 2020-04-27 160402](https://user-images.githubusercontent.com/63625609/80343414-c89b7e80-88a0-11ea-9e72-8512361a5fba.png)
+* 테스트를 위해 설치하는 것이므로 무료버전 다운로드 및 실행
