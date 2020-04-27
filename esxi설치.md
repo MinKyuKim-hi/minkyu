@@ -109,3 +109,5 @@ esxi 뒤에 숫자는 버전마다 다름.
 * 중간의 `GET MOBAXTERM NOW!` 버튼을 클릭합니다.
 ![주석 2020-04-27 160402](https://user-images.githubusercontent.com/63625609/80343414-c89b7e80-88a0-11ea-9e72-8512361a5fba.png)
 * 테스트를 위해 설치하는 것이므로 무료버전 다운로드 및 실행
+![주석 2020-04-27 160553](https://user-images.githubusercontent.com/63625609/80343523-026c8500-88a1-11ea-9086-b629a38c4b81.png)
+왼쪽 SESSIONS 에서 New session 클릭하고 연결할 방법 선택 저는 ssh로 접속했습니다.
