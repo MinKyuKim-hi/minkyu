@@ -12,7 +12,7 @@ VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.c
 
 -----
 2. 설치 USB만들기 <br>
-다운로드 받은 파일을 RUFUS 프로그램을 사용해서 USB에 설치합니다.
+다운로드 받은 파일을 RUFUS 프로그램을 사용해서 USB에 설치합니다. <br>
 ![RUFUS-1](https://user-images.githubusercontent.com/63625609/80326713-a25fe980-8874-11ea-900b-44c7e3ed1a21.png)
 * 장치 : os를 설치할 usb를 선택합니다. <br>
 
