@@ -1,5 +1,5 @@
 # esxi 설치
-1. 홈페이지 접속 <br>
+1. 홈페이지 접속하기 <br>
 다운로드 전에 알아야 할 것으로 esxi는 `무료 vSphere Hypervisor` 나 `유료 vSphere`로 제공됩니다. <br>
 우리는 무료인 vSphere Hypervisor에 대해서 알아보겠습니다. <br>
 VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.com/kr.html 클릭 또는 검색해서 접속해줍니다. <br>
@@ -12,15 +12,29 @@ VMware를 검색해서 홈페이지에 접속해 줍니다. https://www.vmware.c
 
 -----
 2. 설치 USB만들기 <br>
-다운로드 받은 파일을 RUFUS 프로그램을 사용해서 USB에 설치합니다. <br>
+다운로드 받은 파일을 Rufus 프로그램을 사용해서 USB에 설치합니다. <br>
 ![RUFUS-1](https://user-images.githubusercontent.com/63625609/80326713-a25fe980-8874-11ea-900b-44c7e3ed1a21.png)
 * 장치 : os를 설치할 usb를 선택합니다. <br>
 * 디스크 형식과 부팅 시스템 유형 : MBR파티션 형식의 BIOS 또는 UEFI(BIOS호환)을 선택합니다.
- - MBR(MASTER BOOT RECORD) : 가장 보편화된 디스크 파티션 기술로 디스크의 첫번재 센터를 말한다.
- - GPT(GUID PARTION TABLE) : MBR의 기술적 제한의 해결하기 위해 나온 디스크 파티션 기술을 말합니다
- - BIOS(BASIC INPUT/OUTPUT SYSTEM) : 메이보드에 내장된 펌웨어로 CUI 기반입니다.
- - UEFI(UNIFIED EXTENSIBLE FIRMWARE INTERFACE) : BIOS의 발전형이며 GUI 기반의 펌웨어입니다.
+ *MBR(MASTER BOOT RECORD) : 가장 보편화된 디스크 파티션 기술로 디스크의 첫번재 센터를 말한다.
+ *GPT(GUID PARTION TABLE) : MBR의 기술적 제한의 해결하기 위해 나온 디스크 파티션 기술을 말합니다
+ *BIOS(BASIC INPUT/OUTPUT SYSTEM) : 메이보드에 내장된 펌웨어로 CUI 기반입니다.
+ *UEFI(UNIFIED EXTENSIBLE FIRMWARE INTERFACE) : BIOS의 발전형이며 GUI 기반의 펌웨어입니다.
 
+* 파일시스템 : FAT32(기본) 선택 합니다.
+* 할당 단위 크기 : 4096 bytes(기본) 선택합니다.
+* 새 볼륨 레이블 : USB 이름을 정합니다. 그냥 놔두면 알아서 됩니다.
+* 빠른 포멧 : USB포멧 방식입니다. 체크합니다.
+* 배드섹터 검사 : 이미지가 제대로 설치 되었는지 무결성을 검사합니다. 체크 해제합니다.
+* 확장 레이블 및 아이콘 파일 만들기 : 필요시 체크합니다.
+
+-----
+3. Rufus 실행하기 <br>
+USB에 설치할 `ISO 파일` 을 선택합니다. 시작을 클릭하면 ISO이미지를 USB에 설치하는 작업이 진행됩니다. 시스템 사양에 따라 시간이 다르지만 <br>
+되도록이면 USB 3.0이상을 사용하는걸 추천 합니다. 설치 진행시 USB안의 파일들은 못쓰게 되니 비어있는 USB를 사용하거나 필요없는 파일이 있는 USB 사용을 권장합니다.
+
+-----
+4. esxi 설치하기 <br>
 ![esx11](https://user-images.githubusercontent.com/63625609/80325068-b0ab0700-886e-11ea-84fc-77492fdb7cbe.png)
 esxi 뒤에 숫자는 버전마다 다름. 
 ![esx12](https://user-images.githubusercontent.com/63625609/80325149-efd95800-886e-11ea-90f4-0a3c9f8e4639.png)
