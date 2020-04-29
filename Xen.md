@@ -24,3 +24,5 @@
 - 네트워크 설정 부분입니다. 고정 ip를 사용하시려면 직접 설정해주어야 하고 자동ip를 사용하려면 DHCP선택후 넘어갑니다.
 ![XenServer12](https://user-images.githubusercontent.com/63625609/80554515-6cec0500-8a08-11ea-96dd-769c2efab6a2.png)
 - DNS설정 부분입니다. 적절하게 작성하면 됩니다.
+![XenServer13](https://user-images.githubusercontent.com/63625609/80554561-8c832d80-8a08-11ea-958d-7567937704dd.png)
+- 타임 존 설정입니다. Asia선택후 넘어갑니다.
