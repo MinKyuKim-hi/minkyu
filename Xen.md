@@ -32,7 +32,7 @@
 ![XenServer17](https://user-images.githubusercontent.com/63625609/80554706-f7346900-8a08-11ea-82ba-d755455b9e14.png)
 - 기다리면 설치가 진행됩니다.
 ![XenServer18](https://user-images.githubusercontent.com/63625609/80554744-13d0a100-8a09-11ea-80bc-21a25a7bfb77.png)
-- 리부팅 하면 설치 완료 <
+- 리부팅 하면 설치 완료 <br> 
 ![XenServer20](https://user-images.githubusercontent.com/63625609/80554775-28ad3480-8a09-11ea-9815-bd1d133b9db7.png)
 - 설치 완료화면 입니다. IP,DNS 등등 설정을 변경 및 확인할 수 있습니다.
 ![XenServer22](https://user-images.githubusercontent.com/63625609/80554818-4aa6b700-8a09-11ea-8a88-3f633154e748.png)
