@@ -56,4 +56,7 @@
 - 설치할 VM의 이름 설정화면입니다.
 ![주석 2020-04-29 112816](https://user-images.githubusercontent.com/63625609/80555874-90b14a00-8a0c-11ea-8859-ca9ce223c825.png)
 - 설치할 OS의 DVD drive. iso이미지 파일 선택.
+![주석 2020-04-29 113006](https://user-images.githubusercontent.com/63625609/80555925-c9e9ba00-8a0c-11ea-8823-7cfca8d18816.png)
+- 설치할 서버를 확인합니다.
+
 
