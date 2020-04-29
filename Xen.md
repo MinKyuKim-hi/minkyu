@@ -40,7 +40,7 @@
 ------------
 2. XenCenter <br>
 ![XenCenter](https://user-images.githubusercontent.com/63625609/80555030-f9e38e00-8a09-11ea-958b-10d676ae05c6.png)
-![XenCenter2](https://user-images.githubusercontent.com/63625609/80555035-fbad5180-8a09-11ea-90dc-54a7e7499949.png)
+![주석 2020-04-29 114019](https://user-images.githubusercontent.com/63625609/80556348-429d4600-8a0e-11ea-892f-d41a473b4f44.png)
 - Add New Server를 눌러 ip주소,id,비밀번호 등을 입력하고 XenServer를 추가합니다.
 ![XenCenter3](https://user-images.githubusercontent.com/63625609/80555066-1da6d400-8a0a-11ea-82bd-b89049fe3150.png)
 - XenServer가 XenCenter 서버목록에 추가되었습니다.
