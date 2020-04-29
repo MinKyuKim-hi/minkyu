@@ -62,5 +62,7 @@
 - 설치할 VM의 CPU,Memory등을 설정합니다.
 ![주석 2020-04-29 113206](https://user-images.githubusercontent.com/63625609/80556003-159c6380-8a0d-11ea-9095-a5b09a72ba16.png)
 - storage 확인 화면입니다.
+![주석 2020-04-29 113256](https://user-images.githubusercontent.com/63625609/80556089-614f0d00-8a0d-11ea-99a1-a79686e6877d.png)
+- Networking 설정 화면 입니다.
 
 
