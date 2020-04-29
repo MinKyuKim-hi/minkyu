@@ -14,3 +14,5 @@
 - XenDesktop을 사용하시는분들은 아래 provisioning을 사용하려면 체크합니다.
 ![XenServer7](https://user-images.githubusercontent.com/63625609/80554292-9d7f6f00-8a07-11ea-97b7-fcb5774adad1.png)
 - 로컬미디어 선택후 넘어갑니다.
+![XenServer8](https://user-images.githubusercontent.com/63625609/80554323-bee05b00-8a07-11ea-9530-bff1551b2683.png)
+- Supplemental Packs(보조팩) 설치여부 선택입니다.
