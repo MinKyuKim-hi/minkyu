@@ -31,3 +31,5 @@
 - 시스템 시간 설정입니다.
 ![XenServer17](https://user-images.githubusercontent.com/63625609/80554706-f7346900-8a08-11ea-82ba-d755455b9e14.png)
 - 설정이 끝났으면 설치를 진행합니다.
+![XenServer18](https://user-images.githubusercontent.com/63625609/80554744-13d0a100-8a09-11ea-80bc-21a25a7bfb77.png)
+- 기다리면 설치가 진행됩니다.
