@@ -39,5 +39,6 @@
 - 설치 완료화면 입니다. IP,DNS 등등 설정을 변경 및 확인할 수 있습니다.
 ------------
 2. XenCenter <br>
-![XenServer22](https://user-images.githubusercontent.com/63625609/80554945-b852e300-8a09-11ea-83ba-d5fa971ceb7c.png)
+![XenCenter](https://user-images.githubusercontent.com/63625609/80555030-f9e38e00-8a09-11ea-958b-10d676ae05c6.png)
+![XenCenter2](https://user-images.githubusercontent.com/63625609/80555035-fbad5180-8a09-11ea-90dc-54a7e7499949.png)
 - Add New Server를 눌러 ip주소,id,비밀번호 등을 입력하고 XenServer를 추가합니다.
