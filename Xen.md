@@ -16,3 +16,5 @@
 - 로컬미디어 선택후 넘어갑니다.
 ![XenServer8](https://user-images.githubusercontent.com/63625609/80554323-bee05b00-8a07-11ea-9530-bff1551b2683.png)
 - Supplemental Packs(보조팩) 설치여부 선택입니다.
+![XenServer9](https://user-images.githubusercontent.com/63625609/80554382-e800eb80-8a07-11ea-8be6-1c653016e4bb.png)
+- 설치 원본 소스를 확인하는 작업의 진행여부입니다. 필요없으면 Skip verification 선택후 진행합니다.
