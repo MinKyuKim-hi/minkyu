@@ -18,3 +18,5 @@
 - Supplemental Packs(보조팩) 설치여부 선택입니다.
 ![XenServer9](https://user-images.githubusercontent.com/63625609/80554382-e800eb80-8a07-11ea-8be6-1c653016e4bb.png)
 - 설치 원본 소스를 확인하는 작업의 진행여부입니다. 필요없으면 Skip verification 선택후 진행합니다.
+![XenServer10](https://user-images.githubusercontent.com/63625609/80554427-154d9980-8a08-11ea-8681-e3821302972b.png)
+- XenServer에 사용할 비밀번호 설정화면 입니다.
