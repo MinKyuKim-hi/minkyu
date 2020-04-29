@@ -50,3 +50,6 @@
 - FileZilla Client 프로그램을 사용해서 iso_storage에 이미지 파일 iso 업로드
 ![주석 2020-04-29 112314](https://user-images.githubusercontent.com/63625609/80555647-dd485580-8a0b-11ea-98a9-2c73d0a44ef5.png)
 - XenCenter에서 iso_storage 에 이미지 파일이 추가 된것을 확인할 수 있다.
+![주석 2020-04-29 112519](https://user-images.githubusercontent.com/63625609/80555750-239db480-8a0c-11ea-8e94-4c166370aea8.png)
+- 화면의 New VM 클릭후 설치할 VM의 OS 선택.
+
