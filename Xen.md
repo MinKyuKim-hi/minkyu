@@ -10,3 +10,5 @@
 - 라이선스 동의 화면 입니다. Enter를 눌러 동의하고 진행합니다.
 ![XenServer5](https://user-images.githubusercontent.com/63625609/80554150-277b0800-8a07-11ea-82e0-6dbbb91511f6.png)
 - 현재 하드웨어로 XenServer설치 이후 사용에 문제가 있을수 있다는 메세지 입니다.
+![XenServer6](https://user-images.githubusercontent.com/63625609/80554223-68731c80-8a07-11ea-9f8e-d7c53b4b782f.png)
+- XenDesktop을 사용하시는분들은 아래 provisioning을 사용하려면 체크합니다.
