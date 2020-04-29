@@ -58,5 +58,8 @@
 - 설치할 OS의 DVD drive. iso이미지 파일 선택.
 ![주석 2020-04-29 113006](https://user-images.githubusercontent.com/63625609/80555925-c9e9ba00-8a0c-11ea-8823-7cfca8d18816.png)
 - 설치할 서버를 확인합니다.
+![주석 2020-04-29 113055](https://user-images.githubusercontent.com/63625609/80555965-edad0000-8a0c-11ea-9ad5-481d46782ec7.png)
+- 설치할 VM의 CPU,Memory등을 설정합니다.
+
 
 
