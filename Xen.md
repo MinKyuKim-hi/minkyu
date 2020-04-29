@@ -60,6 +60,7 @@
 - 설치할 서버를 확인합니다.
 ![주석 2020-04-29 113055](https://user-images.githubusercontent.com/63625609/80555965-edad0000-8a0c-11ea-9ad5-481d46782ec7.png)
 - 설치할 VM의 CPU,Memory등을 설정합니다.
-
+![주석 2020-04-29 113206](https://user-images.githubusercontent.com/63625609/80556003-159c6380-8a0d-11ea-9095-a5b09a72ba16.png)
+- storage 확인 화면입니다.
 
 
