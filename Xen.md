@@ -35,3 +35,7 @@
 - 기다리면 설치가 진행됩니다.
 ![XenServer20](https://user-images.githubusercontent.com/63625609/80554775-28ad3480-8a09-11ea-9815-bd1d133b9db7.png)
 - 리부팅 하면 설치 완료
+![XenServer22](https://user-images.githubusercontent.com/63625609/80554818-4aa6b700-8a09-11ea-8a88-3f633154e748.png)
+- 설치 완료화면 입니다. IP,DNS 등등 설정을 변경 및 확인할 수 있습니다.
+------------
+2. XenCenter <br>
