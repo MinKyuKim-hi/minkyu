@@ -64,5 +64,6 @@
 - storage 확인 화면입니다.
 ![주석 2020-04-29 113256](https://user-images.githubusercontent.com/63625609/80556089-614f0d00-8a0d-11ea-99a1-a79686e6877d.png)
 - Networking 설정 화면 입니다.
-
+![주석 2020-04-29 113506](https://user-images.githubusercontent.com/63625609/80556151-a410e500-8a0d-11ea-878a-859c2defb408.png)
+- VM설치 최종확인. Create Now버튼을 눌러 VM생성. Start the new VM automatically 체크박스는 설치후 자동실행 여부를 묻는것 입니다.
 
