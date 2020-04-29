@@ -1,6 +1,5 @@
 **1. XenServer 설치** <br>
-- 부팅 화면 <br>
-- Enter키를 눌러 설치를 진행합니다
+- 부팅화면입니다. Enter키를 눌러 설치를 진행합니다
 ![XenServer1](https://user-images.githubusercontent.com/63625609/80553884-5e045300-8a06-11ea-9865-e9abc4e53658.png)
 - keymap은 us로 선택합니다.
 ![XenServer2](https://user-images.githubusercontent.com/63625609/80553934-96a42c80-8a06-11ea-8701-e0cc274245cd.png)
