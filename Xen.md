@@ -29,4 +29,5 @@
 - 타임 존 설정입니다. Asia,Seoul선택후 넘어갑니다.
 ![XenServer15](https://user-images.githubusercontent.com/63625609/80554652-d0763280-8a08-11ea-81b5-b3e79bd6bfde.png)
 - 시스템 시간 설정입니다.
-
+![XenServer17](https://user-images.githubusercontent.com/63625609/80554706-f7346900-8a08-11ea-82ba-d755455b9e14.png)
+- 설정이 끝났으면 설치를 진행합니다.
