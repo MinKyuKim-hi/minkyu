@@ -66,4 +66,5 @@
 - Networking 설정 화면 입니다.
 ![주석 2020-04-29 113506](https://user-images.githubusercontent.com/63625609/80556151-a410e500-8a0d-11ea-878a-859c2defb408.png)
 - VM설치 최종확인. Create Now버튼을 눌러 VM생성. Start the new VM automatically 체크박스는 설치후 자동실행 여부를 묻는것 입니다.
-
+![주석 2020-04-29 113829](https://user-images.githubusercontent.com/63625609/80556253-f9e58d00-8a0d-11ea-800a-d3b5251d8194.png)
+- VM 생성후 실행, 설치완료된 Windows 화면 입니다.
