@@ -52,4 +52,6 @@
 - XenCenter에서 iso_storage 에 이미지 파일이 추가 된것을 확인할 수 있다.
 ![주석 2020-04-29 112519](https://user-images.githubusercontent.com/63625609/80555750-239db480-8a0c-11ea-8e94-4c166370aea8.png)
 - 화면의 New VM 클릭후 설치할 VM의 OS 선택.
+![주석 2020-04-29 112659](https://user-images.githubusercontent.com/63625609/80555821-5e9fe800-8a0c-11ea-8eba-62486b1143f1.png)
+- 설치할 VM의 이름 설정화면입니다.
 
