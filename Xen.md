@@ -8,3 +8,5 @@
 - Enter키를 눌러 진행합니다.
 ![XenServer4](https://user-images.githubusercontent.com/63625609/80554064-ee429800-8a06-11ea-92d5-6a833480d9bc.png)
 - 라이선스 동의 화면 입니다. Enter를 눌러 동의하고 진행합니다.
+![XenServer5](https://user-images.githubusercontent.com/63625609/80554150-277b0800-8a07-11ea-82e0-6dbbb91511f6.png)
+- 현재 하드웨어로 XenServer설치 이후 사용에 문제가 있을수 있다는 메세지 입니다.
