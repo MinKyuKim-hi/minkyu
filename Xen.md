@@ -54,4 +54,6 @@
 - 화면의 New VM 클릭후 설치할 VM의 OS 선택.
 ![주석 2020-04-29 112659](https://user-images.githubusercontent.com/63625609/80555821-5e9fe800-8a0c-11ea-8eba-62486b1143f1.png)
 - 설치할 VM의 이름 설정화면입니다.
+![주석 2020-04-29 112816](https://user-images.githubusercontent.com/63625609/80555874-90b14a00-8a0c-11ea-8859-ca9ce223c825.png)
+- 설치할 OS의 DVD drive. iso이미지 파일 선택.
 
