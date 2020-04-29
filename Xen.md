@@ -20,3 +20,5 @@
 - 설치 원본 소스를 확인하는 작업의 진행여부입니다. 필요없으면 Skip verification 선택후 진행합니다.
 ![XenServer10](https://user-images.githubusercontent.com/63625609/80554427-154d9980-8a08-11ea-8681-e3821302972b.png)
 - XenServer에 사용할 비밀번호 설정화면 입니다.
+![XenServer11](https://user-images.githubusercontent.com/63625609/80554462-3910df80-8a08-11ea-9a67-c54cdf014840.png)
+- 네트워크 설정 부분입니다. 고정 ip를 사용하시려면 직접 설정해주어야 하고 자동ip를 사용하려면 DHCP선택후 넘어갑니다.
