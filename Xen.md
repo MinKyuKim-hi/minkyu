@@ -45,7 +45,7 @@
 ![XenCenter3](https://user-images.githubusercontent.com/63625609/80555066-1da6d400-8a0a-11ea-82bd-b89049fe3150.png)
 - XenServer가 XenCenter 서버목록에 추가되었습니다.
 ![주석 2020-04-29 111707](https://user-images.githubusercontent.com/63625609/80555366-0caa9280-8a0b-11ea-9801-52e835dabe0c.png)
-- SSH로 XenServer에 접속하고 /dev/mapper 라고 써있는 부분의 뒤에 /run/sr-mount~~ 를 복사해서 mkdir로 iso_storage를 만들어 줍니다.
+- SSH로 XenServer에 접속하고 /dev/mapper 라고 써있는 부분의 뒤에 /run/sr-mount~~ 경로를 복사해서 mkdir로 iso_storage를 만들어 줍니다.
 ![주석 2020-04-29 112125](https://user-images.githubusercontent.com/63625609/80555570-99555080-8a0b-11ea-941a-a43145b1d903.png)
 - FileZilla Client 프로그램을 사용해서 iso_storage에 이미지 파일 iso 업로드
 ![주석 2020-04-29 112314](https://user-images.githubusercontent.com/63625609/80555647-dd485580-8a0b-11ea-98a9-2c73d0a44ef5.png)
