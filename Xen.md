@@ -33,3 +33,5 @@
 - 설정이 끝났으면 설치를 진행합니다.
 ![XenServer18](https://user-images.githubusercontent.com/63625609/80554744-13d0a100-8a09-11ea-80bc-21a25a7bfb77.png)
 - 기다리면 설치가 진행됩니다.
+![XenServer20](https://user-images.githubusercontent.com/63625609/80554775-28ad3480-8a09-11ea-9815-bd1d133b9db7.png)
+- 리부팅 하면 설치 완료
