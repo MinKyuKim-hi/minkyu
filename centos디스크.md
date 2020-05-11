@@ -37,6 +37,6 @@
  - 추가한 논리 볼륨을 실제 파일 시스템에 적용해야 됩니다.
  - 파일 시스템 용량을 변경하기에 앞서 `df -h` 명령어로 마운트 정보를 확인합니다.
  - /dev/mapper/centos-root 파일 시스템의 용량을 변경하겠습니다. `xfs_growfs /dev/mapper/centos-root`
- - 다시 `df -h` 명령어로 확인합니다.
+ - 다시 `df -h` 명령어로 확인합니다. <br>
  ![주석 2020-05-11 142432](https://user-images.githubusercontent.com/63625609/81526655-2b0d7800-9393-11ea-8a79-d690662b90d7.png)
  - root 용량이 27G로 변경되었습니다.
