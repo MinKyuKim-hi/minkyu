@@ -26,4 +26,16 @@
 3. 물리 볼륨 생성하기
  - 생성한 파티션에 LVM 물리 볼륨을 생성합니다. `pvcreate /dev/xvdb1`
  - 생성된 몰리 볼륨을 확인합니다. `pvdisplay`
+ ![주석 2020-05-11 141746](https://user-images.githubusercontent.com/63625609/81526315-38763280-9392-11ea-989a-3f9ec7071d30.png)
+4. 볼륨 그룹 추가하기
+ - 추가한 물리 볼륨(/dev/xvdb1)을 실행중인 centos 볼륨 그룹에 추가합니다. `vgextend centos /dev/xvdb1`
+5. 논리 볼륨 용량 변경하기
+ - -L 옵션으로 변경할 용량을 설정 합니다. `lvdisplay` 명령어로 현재 용량을 확인합니다.
+ - /(루트)에 마운트된 논리 볼륨 /dev/centos/root 할당된 용량을 확인 하고 추가합니다. `lvextend -L +19G /dev/centos/root`
+ - 다시 논리 볼륨을 확인하면 용량이 추가된 것을 확인할 수 있습니다.
+6. 파일 시스템 용량 변경하기
+ - 추가한 논리 볼륨을 실제 파일 시스템에 적용해야 됩니다.
+ - 파일 시스템 용량을 변경하기에 앞서 `df -h` 명령어로 마운트 정보를 확인합니다.
+ - /dev/mapper/centos-root 파일 시스템의 용량을 변경하겠습니다. `xfs_growfs /dev/mapper/centos-root`
+ - 다시 `df -h` 명령어로 확인합니다.
  
