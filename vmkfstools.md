@@ -88,6 +88,8 @@ VMFS 데이터스토어에 익스텐트를 추가하는 대신 기존 데이터�
 `-G|--growfs devicedevice` <br>
 이 옵션은 VMFS 데이터스토어 또는 해당 익스텐트를 확장합니다. 예를 들면 다음과 같습니다. <br>
 `vmkfstools --growfs /vmfs/devices/disks/disk_ID:1 /vmfs/devices/disks/disk_ID:1` <br>
+
+---------
 - VMFS 데이터스토어 업그레이드 <br>
 VMFS 데이터스토어를 사용하는 경우 VMFS5로 업그레이드 해야합니다. <br>
 데이터스토어를 업그레이드할 때는 다음 옵션을 사용합니다. <br>
@@ -95,4 +97,4 @@ VMFS 데이터스토어를 사용하는 경우 VMFS5로 업그레이드 해야�
 업그레이드는 단방향 프로세스 입니다. VMFS3 데이터스토어를 VMFS5로 변환한 후에는 VMFS3으로 되돌릴 수 없습니다. 또한 데이터스토어를 액세스하는 모든 호스트가 VMFS5를 지원해야 합니다.
 
 ---------
-
+3. 가상 디스크 옵션 <br>
