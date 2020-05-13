@@ -121,10 +121,10 @@ ESXI 호스트가 아니라 NFS서버가 할당 정책을 결정하므로 일반
 이 옵션은 데이터스토어의 지정한 경로에 가상 디스크를 생성합니다. 가상 디스크의 크기를 지정합니다. size에 값을 입력할 때 k(킬로바이트),m(메가바이트)
  또는 g(기가바이트)를 접미사로 추가하여 단위 유형을 나타낼 수 있습니다. 단위 유형은 대/소문자를 구분하지 않습니다. vmkfstools는 k 또는 K 모두 
  킬로바이트로 해석합니다. 단위 유형을 지정하지 않으면 vmkfstools는 바이트를 기본값으로 사용합니다. <br>
- `-c|--createvirtualdisk size[bB|sS|kK|mM|gG] <br>
- -d|--diskformat [thin|zeroedthick|eagerzeroedthick] <br>
- -w|--objecttype [file|vsan|vvol] <br>
- --policyFile fileName` <br>
+ `-c|--createvirtualdisk size[bB|sS|kK|mM|gG]` <br>
+ `-d|--diskformat [thin|zeroedthick|eagerzeroedthick]` <br>
+ `-w|--objecttype [file|vsan|vvol]` <br>
+ `--policyFile fileName` <br>
  -c 옵션에 다음과 같은 하위 옵션을 지정할 수 있습니다. <br>
  -d|--diskformat 은 디스크 형식을 지정합니다. <br>
  -w|--objecttype 은 가상 디스크가 VMFS나 NFS 데이터스토어에 있는 파일인지 아니면 vSAN 또는 Virtual Volumes 데이터스토어에 있는 개체인지 지정합니다. <br>
@@ -170,11 +170,11 @@ VMFS 볼륨의 지정된 경로에 있는 가상 디스크 파일을 삭제하�
 -----
 - 가상 디스크나 RDM 복제 또는 변환 <br>
 루트 사용자가 아니면 가상 디스크나 RDM을 복제할 수 없습니다. 원래 파일 이름 또는 파일 경로 oldName과 새 파일 이름 또는 파일경로 newName을 지정해야 합니다. <br>
-`-i|--clonevirtualdisk oldNamenewName <br>
--d|--diskformat [thin|zeroedthick|eagerzeroedthick|rdm:device|2gbsparse] <br>
--w|--objecttype [file|vsan|vvol] <br>
---policyFile fileName <br>
--N|--avoidnativeclone` <br>
+`-i|--clonevirtualdisk oldNamenewName` <br>
+`-d|--diskformat [thin|zeroedthick|eagerzeroedthick|rdm:device|2gbsparse]` <br>
+`-w|--objecttype [file|vsan|vvol]` <br>
+`--policyFile fileName` <br>
+`-N|--avoidnativeclone` <br>
 생성하는 복사본의 매개 변수를 변경하려면 다음 하위 옵션을 사용합니다. <br>
 -d|--diskformat 은 디스크 형식을 지정합니다. <br>
 -w|--objecttype 은 가상 디스크가 VMFS나 NFS 데이터스토어에 있는 파일인지 ㅇ ㅏ니면 vsan또는 Virtual Volumes 데이터스토어에 있는 개체인지 지정합니다. <br>
@@ -242,9 +242,9 @@ SCSI 명령을 보내야 하는 경우에 유용합니다. <br>
 `-q|--queryrdm my_rdm.vmdk` <br>
 이 옵션은 원시 디스크 RDM의 이름을 인쇄합니다. 또한 디스크 ID와 같이 원시 디스크에 대한 다른 식별 정보도 인쇄합니다. <br>
 RDM 특성 나열 예제 <br>
-`# vmkfstools -q /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk <br>
-Disk /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk is a Passthrough Raw Device Mapping <br>
-maps to : vml.0200000005464503453450000003453405435345 ` <br>
+`# vmkfstools -q /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk` <br>
+`Disk /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk is a Passthrough Raw Device Mapping` <br>
+`maps to : vml.0200000005464503453450000003453405435345 ` <br>
 
 -----
 - 가상 디스크 기하 도형 표시 <br>
