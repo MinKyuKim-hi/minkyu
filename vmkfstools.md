@@ -215,7 +215,7 @@ VMFS 가상 디스크에 액세스 하는 것처럼 LUN에 액세스할 수 있�
 `-r|--createrdm device` <br>
 device 매개 변수를 지정할 때는 다음 형식을 사용합니다. <br>
 `/vmfs/devices/disks/disk_ID:P` <br>
-RDM 생성 예제 <br>
+*RDM 생성 예제* <br>
 이 예제에서는 my_rdm.vmdk 라는 RDM을 생성하고 해당 파일에 disk_ID 원시 디스크를 매핑합니다. <br>
 `vmkfstools -r /vmfs/devices/disks/disk_ID my_rdm.vmdk` <br>
 가상 시스템 구성 파일에 다음 줄을 추가하여 my_rdm.vmdk 매핑 파일을 사용하도록 가상 시스템을 구성할 수 있습니다. <br>
@@ -233,7 +233,7 @@ SCSI 명령을 보내야 하는 경우에 유용합니다. <br>
 `/vmfs/devices/disks/device_ID` <br>
 .vmdk 이름에는 다음 형식을 사용합니다. 명령을 사용하기 전에 데이터스토어를 생성해야 합니다.
 `/vmfs/volumes/datastore_name/example.vmdk` <br>
-예를 들면 아래와 같습니다. <br>
+*예를 들면 아래와 같습니다.* <br>
 `vmkfstools -z /vmfs/devices/disks/naa.600a0000... /vmfs/volumes/datastore1/mydisk.vmdk`
 
 -----
@@ -241,7 +241,7 @@ SCSI 명령을 보내야 하는 경우에 유용합니다. <br>
 이러한 특성은 RDM 파일이 매핑되는 스토리지 디바이스를 식별하는 데 도움을 줍니다. <br>
 `-q|--queryrdm my_rdm.vmdk` <br>
 이 옵션은 원시 디스크 RDM의 이름을 인쇄합니다. 또한 디스크 ID와 같이 원시 디스크에 대한 다른 식별 정보도 인쇄합니다. <br>
-RDM 특성 나열 예제 <br>
+*RDM 특성 나열 예제* <br>
 `# vmkfstools -q /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk` <br>
 `Disk /vmfs/volumes/VMFS/my_vm/my_rdm.vmdk is a Passthrough Raw Device Mapping` <br>
 `maps to : vml.0200000005464503453450000003453405435345 ` <br>
@@ -250,8 +250,8 @@ RDM 특성 나열 예제 <br>
 - 가상 디스크 기하 도형 표시 <br>
 `-g|--geometry` <br>
 출력은 Geometry information C/H/S 형식이며, 여기서 C,H 및 S 는 각각 실린더 수, 헤드 수 및 섹터 수 를 나타냅니다. <br>
-참고 : 호스팅된 VMware 제품의 가상 디스크를 ESXI호스트로 가져오면 디스크 기하 도형 불일치 오류 메세지가 표시될 수 있습니다. 디스크 기하 도형 불일
-치로 인해 게스트 운영체제를 로드하거나 새로 생성한 가상 시스템을 실행하는 데돋 문제가 발생할 수 있습니다. <br>
+*참고 : 호스팅된 VMware 제품의 가상 디스크를 ESXI호스트로 가져오면 디스크 기하 도형 불일치 오류 메세지가 표시될 수 있습니다. 디스크 기하 도형 불일
+치로 인해 게스트 운영체제를 로드하거나 새로 생성한 가상 시스템을 실행하는 데돋 문제가 발생할 수 있습니다.* <br>
 
 -----
 - 가상 디스크 검사 및 복구 <br>
@@ -269,8 +269,8 @@ RDM 특성 나열 예제 <br>
 - LUN의 SCSI 예약관리
 다른 호스트가 LUN에 액세스할 수 있도록 예약을 해제하고, 예약을 재설정하여 대상에서 모든 예약을 강제로 해제할 수 있습니다. <br>
 `-L|--lock [reserve|release|lunreset|targetreset|busreset|readkeys|readresv] device` <br>
-경고 : -L 옵션을 사용하면 SAN에 있는 다른 서버의 작업이 중단될 수 있습니다. -L 옵션은 클러스터링 설정 문제를 해결할 때만 사용해야 합니다. <br>
-VMware에서 권고한 경우가 아니라면 VMFS 볼륨을 호스팅하는 LUN에서 이 옵션을 사용하면 안됩니다. <br>
+*경고 : -L 옵션을 사용하면 SAN에 있는 다른 서버의 작업이 중단될 수 있습니다. -L 옵션은 클러스터링 설정 문제를 해결할 때만 사용해야 합니다. <br>
+VMware에서 권고한 경우가 아니라면 VMFS 볼륨을 호스팅하는 LUN에서 이 옵션을 사용하면 안됩니다.* <br>
 -L 옵션은 여러가지 방법으로 지정할 수 있습니다. <br> 
 `-L reserve` 지정된 LUN을 예약합니다. 예약한 후에는 해당 LUN을 예약한 서버만 LUN 에 액세스할 수 있습니다. 다른 서버가 해당 LUN 을 액세스하려고 
 하면 예약 오류가 발생합니다. <br>
@@ -292,5 +292,5 @@ device 매개 변수는 다음 형식에 따라 입력합니다. <br>
 `-B|--breaklock device` <br>
 device 매개 변수는 다음 형식에 따라 입력합니다. <br>
 `/vmfs/devices/disks/disk_ID:P` <br>
-이 명령은 데이터스토어를 확장, 익스텐트 추가 또는 재서명과 같은 데이터스토어 작업을 수행하는 중에 호스트에서 장애가 발생했을 때 사용할 수 있습니다. 
-이 명령을 실행할 때는 잠금을 사용하는 다른 호스트가 없어야 합니다. 
+*이 명령은 데이터스토어를 확장, 익스텐트 추가 또는 재서명과 같은 데이터스토어 작업을 수행하는 중에 호스트에서 장애가 발생했을 때 사용할 수 있습니다. 
+이 명령을 실행할 때는 잠금을 사용하는 다른 호스트가 없어야 합니다.* 
