@@ -117,3 +117,34 @@ ESXI 호스트가 아니라 NFS서버가 할당 정책을 결정하므로 일반
 있습니다. NFS서버는 공간 예약 작업을 통해 공간을 할당하고 확보할 수 있습니다.
 
 -----
+- 가상 디스크 생성 <br>
+이 옵션은 데이터스토어의 지정한 경로에 가상 디스크를 생성합니다. 가상 디스크의 크기를 지정합니다. size에 값을 입력할 때 k(킬로바이트),m(메가바이트)
+ 또는 g(기가바이트)를 접미사로 추가하여 단위 유형을 나타낼 수 있습니다. 단위 유형은 대/소문자를 구분하지 않습니다. vmkfstools는 k 또는 K 모두 
+ 킬로바이트로 해석합니다. 단위 유형을 지정하지 않으면 vmkfstools는 바이트를 기본값으로 사용합니다. <br>
+ `-c|--createvirtualdisk size[bB|sS|kK|mM|gG] <br>
+ -d|--diskformat [thin|zeroedthick|eagerzeroedthick] <br>
+ -w|--objecttype [file|vsan|vvol] <br>
+ --policyFile fileName` <br>
+ -c 옵션에 다음과 같은 하위 옵션을 지정할 수 있습니다. <br>
+ -d|--diskformat 은 디스크 형식을 지정합니다. <br>
+ -w|--objecttype 은 가상 디스크가 VMFS나 NFS 데이터스토어에 있는 파일인지 아니면 vSAN 또는 Virtual Volumes 데이터스토어에 있는 개체인지 지정합니다. <br>
+ --policyFile fileName 은 디스크의 VM 스토리지 정책을 지정합니다. <br>
+ *가상디스크 생성 예제* <br>
+ 이 예제에서는 disk.vmdk 라는 이름의 2GB 가상 디스크 파일을 생성하는 방법을 보여줍니다. 이름이 myVMFS인 VMFS 데이터스토어에 디스크를 생성합니다.
+ 디스크 파일은 가상 시스템에서 액세스할 수 있는 빈 가상 디스크를 나타냅니다. <br>
+ `vmkfstools -c 2048m /vmfs/volumes/myVMFS/disk.vmdk` <br>
+ 
+-----
+ - 가상 디스크 초기화 <br>
+ `-w|--writezeros` <br>
+ 이 옵션은 모든 데이터를 0으로 덮어써서 가상 디스크를 지웁니다. 가상 디스크의 크기와 가상 디스크를 호스팅하는 디바이스에 대한 I/O 대역폭에 따라
+ 서는 이 명령을 완료하는데 오래 걸릴 수 있습니다. <br>
+ *경고 : 이 명령을 사용하면 가상 디스크의 모든 기존 데이터가 손실됩니다.* <br>
+
+-----
+- 씬 가상 디스크 확장 <br>
+`-j|--inflatedisk` <br>
+이 옵션은 기존 데이터를 모두 보존하면서 thin 가상 디스크를 eagerzeroedthick 으로 변환하고, 아직 할당되지 않은 모든 블록을 할당하고 비웁니다.
+
+-----
+- zeroedthick 가상 디스크를 eagerzeroedthick 디스크로 변환 
