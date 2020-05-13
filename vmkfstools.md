@@ -148,3 +148,4 @@ ESXI 호스트가 아니라 NFS서버가 할당 정책을 결정하므로 일반
 
 -----
 - zeroedthick 가상 디스크를 eagerzeroedthick 디스크로 변환 
+`-k|--eagerzero` <br>
