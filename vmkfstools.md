@@ -67,6 +67,9 @@ vCenter Server에서는 모든 엔티티에 대해 80자 제한을 지원합니�
 VMFS볼륨 레이블을 변경하려면 ln -sf 명령을 사용합니다. 아래 예시처럼  사용할 수 있습니다. <br>
 `ln -sf /vmfs/volumes/UUID /vmfs/volumes/datastore` <br>
 datastore는 UUID VMFS에 사용할 새 볼륨 레이블 입니다. <br>
+*VMFS 파일 시스템 생성 예제* <br>
+이 예제에서는 naa.<ID>:1 파티션에 my_vmfs라는 새 VMFS 데이터스토어를 만드는 방법을 보여주며 파일 블록 크기는 1MB입니다. <br>
+ vmkfstools -C vmfs5 -b 1m -S my_vmfs /vmfs/devices/disks/naa.<ID>:1
 
 -------
 - VMFS 데이터스토어에 익스텐트 추가 <br>
@@ -76,9 +79,9 @@ VMFS 데이터스토어에 익스텐트를 추가하려면 vmkfstools 명령을 
 헤드 및 확장 파티션의 전체 경로 이름을 지정해야 합니다. (예시 : /vmfs/devices/disks/disk_ID:1) 이 옵션을 사용할 때마다 VMFS 데이터스토어에 
 익스텐트가 추가되어 데이터스토어가 여러 파티션으로 확장됩니다. <br>
 경고 : 이 옵션을 실행하면 span_partition 에 지정한 SCSI 디바이스에 있던 기존의 모든 데이터가 손실됩니다. <br>
-VMFS 데이터스토어 확장 예제 <br>
+*VMFS 데이터스토어 확장 예제* <br>
 이 예제에서는 VMFS 데이터스토어의 기존 헤드 파티션을 새 파티션까지 확장합니다. <br>
-`~ vmkfstools -Z /vmfs/devices/disks/naa.disk_ID_2:1 /vmfs/devices/disks/naa.disk_ID_1:1` <br>
+`~ vmkfstools -Z /vmfs/devices/disks/naa.<disk_ID_2>:1 /vmfs/devices/disks/naa.<disk_ID_1>:1` <br>
 확장된 데이터스토어는 두개의 파티션 (naa.disk_ID_1:1 및 naa.disk_ID_2:1) 으로 확장됩니다. 이 예제에서 `naa.disk_ID_*:1` 은 헤드 파티션의 이름입니다. <br>
 
 --------
