@@ -89,7 +89,7 @@ VMFS 데이터스토어에 익스텐트를 추가하려면 vmkfstools 명령을 
 VMFS 데이터스토어에 익스텐트를 추가하는 대신 기존 데이터스토어의 크기를 늘릴 수 있습니다. vmkfstools -G 명령을 사용합니다. <br>
 기존 스토리지의 용량이 증가된 후 데이터스토어의 크기를 늘릴 수 있습니다. 이 명령은 다음 옵션을 사용합니다. <br>
 `-G|--growfs devicedevice` <br>
-이 옵션은 VMFS 데이터스토어 또는 해당 익스텐트를 확장합니다. 예를 들면 다음과 같습니다. <br>
+*이 옵션은 VMFS 데이터스토어 또는 해당 익스텐트를 확장합니다. 예를 들면 다음과 같습니다.* <br>
 `vmkfstools --growfs /vmfs/devices/disks/disk_ID:1 /vmfs/devices/disks/disk_ID:1` <br>
 
 ---------
