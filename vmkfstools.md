@@ -69,7 +69,7 @@ VMFS볼륨 레이블을 변경하려면 ln -sf 명령을 사용합니다. 아래
 datastore는 UUID VMFS에 사용할 새 볼륨 레이블 입니다. <br>
 *VMFS 파일 시스템 생성 예제* <br>
 이 예제에서는 naa.<ID>:1 파티션에 my_vmfs라는 새 VMFS 데이터스토어를 만드는 방법을 보여주며 파일 블록 크기는 1MB입니다. <br>
- vmkfstools -C vmfs5 -b 1m -S my_vmfs /vmfs/devices/disks/naa.<ID>:1
+`vmkfstools -C vmfs5 -b 1m -S my_vmfs /vmfs/devices/disks/naa.<ID>:1`
 
 -------
 - VMFS 데이터스토어에 익스텐트 추가 <br>
