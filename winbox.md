@@ -100,6 +100,8 @@ Remove : 목록에서 선택한 항목을 제거 <br>
 Enable : 선택한 항목을 활성화 합니다. ( 콘솔의 enable 명령과 동일) <br>
 ![Win-disable](https://user-images.githubusercontent.com/63625609/82516785-9eaf4200-9b56-11ea-8873-1979493b8cd7.png)
 Disable : 선택한 항목을 비활성화 합니다. ( 콘솔의 disable 명령과 동일) <br>
+![Win-comment](https://user-images.githubusercontent.com/63625609/82516890-cf8f7700-9b56-11ea-97b1-9c677434bc97.png)
+Comment : 댓글 추가 또는 수정. <br>
 
 
 
