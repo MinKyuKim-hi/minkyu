@@ -102,6 +102,14 @@ Enable : 선택한 항목을 활성화 합니다. ( 콘솔의 enable 명령과 �
 Disable : 선택한 항목을 비활성화 합니다. ( 콘솔의 disable 명령과 동일) <br>
 ![Win-comment](https://user-images.githubusercontent.com/63625609/82516890-cf8f7700-9b56-11ea-97b1-9c677434bc97.png)
 Comment : 댓글 추가 또는 수정. <br>
+![Win-sort](https://user-images.githubusercontent.com/63625609/82516942-ee8e0900-9b56-11ea-837b-86bf11b65df7.png)
+Sort : 다양한 매개 변수에 따라 항목을 정렬할 수 있습니다.
+
+-----
+거의 모든 창의 도구 모음 오른쪽에 빠른 검색 입력 필드가 있습니다. 이 필드에 입력된 모든 텍스트는 모든 항목을 통해 검색되며 아래 스크린샷 같이 강조 
+표시 됩니다. <br>
+
+
 
 
 
