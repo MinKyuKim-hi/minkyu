@@ -98,6 +98,8 @@ Add : 목록에 새 항목 추가 <br>
 Remove : 목록에서 선택한 항목을 제거 <br>
 ![Win-enable](https://user-images.githubusercontent.com/63625609/82516708-6b6cb300-9b56-11ea-8d2f-2dd2fcd41c04.png)
 Enable : 선택한 항목을 활성화 합니다. ( 콘솔의 enable 명령과 동일) <br>
+![Win-disable](https://user-images.githubusercontent.com/63625609/82516785-9eaf4200-9b56-11ea-8873-1979493b8cd7.png)
+Disable : 선택한 항목을 비활성화 합니다. ( 콘솔의 disable 명령과 동일) <br>
 
 
 
