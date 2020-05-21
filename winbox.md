@@ -96,6 +96,8 @@ winbox에는 MDI 인터페이스가 있어서 모든 메뉴 구성 (하위) 미�
 Add : 목록에 새 항목 추가 <br>
 ![Win-remove](https://user-images.githubusercontent.com/63625609/82516635-4415e600-9b56-11ea-96c2-d5cdf0c5d3ec.png)
 Remove : 목록에서 선택한 항목을 제거 <br>
+![Win-enable](https://user-images.githubusercontent.com/63625609/82516708-6b6cb300-9b56-11ea-8d2f-2dd2fcd41c04.png)
+Enable : 선택한 항목을 활성화 합니다. ( 콘솔의 enable 명령과 동일) <br>
 
 
 
