@@ -171,7 +171,14 @@ winbox에서 항목을 복사하는 것이 얼마나 쉬운지를 보여줍니�
 만듭니다. 이 이미지는 DR이 'D'를 나타내는 동적 상태를 나타내는 초기 상태를 보여줍니다.
 ![750px-Wb-man-14](https://user-images.githubusercontent.com/63625609/82520308-d15d3880-9b5e-11ea-926f-9f6a4eb53a9d.png) <br> 
 Down / Up 이벤트 후 이 인터페이스는 정적입니다. <br>
+![750px-Wb-man-16](https://user-images.githubusercontent.com/63625609/82520431-1ed9a580-9b5f-11ea-9831-f393f9af950b.png) 
 
+-----
+14.전송 설정(Transferring Settings)
+관리되는 라우터 전송(Managed router transfer) : 파일 메뉴에서 다른 이름으로 저장 및 열기 기능을 사용하여 관리되는 라우터 목록을 파일에 저장하고 
+새 워크 스테이션에서 다시 열어야 합니다. <br>
+라우터 세션 전송(Router sessions transfer) : 도구 메뉴에서 내보내기 및 가져오기 기능을 사용하여 기존 세션을 파일로 저장하고 새 워크 스테이션에서 
+다시 가져와야 합니다. <br>
 
 
 
