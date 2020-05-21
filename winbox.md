@@ -178,7 +178,18 @@ Down / Up 이벤트 후 이 인터페이스는 정적입니다. <br>
 관리되는 라우터 전송(Managed router transfer) : 파일 메뉴에서 다른 이름으로 저장 및 열기 기능을 사용하여 관리되는 라우터 목록을 파일에 저장하고 
 새 워크 스테이션에서 다시 열어야 합니다. <br>
 라우터 세션 전송(Router sessions transfer) : 도구 메뉴에서 내보내기 및 가져오기 기능을 사용하여 기존 세션을 파일로 저장하고 새 워크 스테이션에서 
-다시 가져와야 합니다. <br>
+다시 가져와야 합니다. 
+
+-----
+15.문제 해결(Troubleshooting)
+- Winbox cannot connect to the router's IP address(Winbox가 라우터의 IP 주소에 연결할 수 없습니다.) : Windows 방화벽이 Winbox 연결을 허용하거
+나 Windows 방화벽을 비활성화 하도록 설정되어 있는지 확인해본다. <br>
+- I get an error '(port 20561) timed out' when connecting to routers mac address (라우터 Mac 주소에 연결할때 '(포트 20561)시간 초과' 오류가 
+발생합니다. : 파일 및 인쇄 공유가 비활성화 되어 있으면 Windows (7/8)에서 Mac연결을 허용하지 않습니다. <br>
+I can't find my device in Winbox IPv4 Neighbors list or MAC connection fails with 'ERROR could not connect to XX-XX-XX-XX-XX-XX' (Winbox 
+IPv4 이웃 목록에서 장치를 찾을 수 없거나 '오류가 XX-XX-XX-XX-XX-XX에 연결할 수 없음' 으로 MAC 연결이 실패함. : 호스트 장치에 IP구성이 없으면 대
+부분의 네트워크 드라이버에서 IP스택을 사용할 수 없습니다. 호스트 장치에서 IPv4 구성을 설정해야 합니다. 캐싱으로 인해 장치를 검색 할수 있지만 'ERRO
+R : XX-XX-XX-XX-XX-XX'에 연결할 수 없습니다.
 
 
 
