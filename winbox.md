@@ -169,7 +169,8 @@ winbox는 모든 인터페이스, 대기열 또는 방화벽 규칙의 트래픽
 13.품목 사본(Item copy) <br>
 winbox에서 항목을 복사하는 것이 얼마나 쉬운지를 보여줍니다. 이 예에서는 copy 버튼을 사용하여 Dynamic PPPoE 서버 인터페이스를 정적 인터페이스로 
 만듭니다. 이 이미지는 DR이 'D'를 나타내는 동적 상태를 나타내는 초기 상태를 보여줍니다.
-
+![750px-Wb-man-14](https://user-images.githubusercontent.com/63625609/82520308-d15d3880-9b5e-11ea-926f-9f6a4eb53a9d.png) <br> 
+Down / Up 이벤트 후 이 인터페이스는 정적입니다. <br>
 
 
 
