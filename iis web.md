@@ -5,12 +5,12 @@
 
 -----
 2. 메모장에서 테스트 페이지 파일 생성 html파일로 <br>
-(<html>
+<html>
 <title>minkyu</title>
 <body>
 test입니다. </br>
 홈페이지 www.minkyu.com </br>
 이 페이지는 테스트페이지 입니다. </br>
 </body>
-</html>)
+</html>
 메모장을 이용해 테스트 페이지 html 파일을 작성합니다.
