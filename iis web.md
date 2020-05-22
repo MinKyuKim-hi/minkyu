@@ -51,8 +51,10 @@ test.html을 기본문서 항목에 추가합니다. <br>
 
 -----
 7. 외부에서 웹페이지 접속
-win box 프로그램을 활용해서 Firewall에 접속하고 +버튼 클릭후 다음과 같이 설정합니다. <br>
+win box 프로그램을 활용해서 Firewall에 접속하고 +버튼 클릭후 다음과 같이 포트포워딩을 설정합니다. <br>
 ![주석 2020-05-22 170222](https://user-images.githubusercontent.com/63625609/82645658-317ed800-9c4e-11ea-9168-d7b7fa35ab77.png) <br>
 ![주석 2020-05-22 170238](https://user-images.githubusercontent.com/63625609/82645662-33489b80-9c4e-11ea-811c-3d5499a3b6eb.png) <br>
 dstnat 설정 입니다. <br>
-
+![주석 2020-05-22 170458](https://user-images.githubusercontent.com/63625609/82645790-6c810b80-9c4e-11ea-876a-00161979fec2.png) <br>
+![주석 2020-05-22 170513](https://user-images.githubusercontent.com/63625609/82645795-6e4acf00-9c4e-11ea-88e3-f9681a91209b.png) <br>
+srcnat 설정 입니다.  <br>
