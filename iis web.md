@@ -43,7 +43,13 @@ test.html을 기본문서 항목에 추가합니다. <br>
 생성된 기본문서 항목입니다. 맨 위에 위치하도록 해줍니다.
 
 -----
-6.웹 페이지 열기
+6. 웹 페이지 열기
 ![주석 2020-05-22 165801](https://user-images.githubusercontent.com/63625609/82645173-6dfe0400-9c4d-11ea-97fa-a121b2404c8e.png) <br>
-기본 경로인 "C:\inetpub\wwwroot" 에 test html파일을 복사해서 옮겨놓고 기본경로 설정을 바꿔줍니다.
+기본 경로인 "C:\inetpub\wwwroot" 에 test html파일을 복사해서 옮겨놓고 기본경로 설정을 바꿔줍니다. <br>
+![주석 2020-05-22 165648](https://user-images.githubusercontent.com/63625609/82645303-a00f6600-9c4d-11ea-9e12-d5460d98fa29.png) <br>
+웹 페이지 접속 테스트를 한 화면 입니다. 
+
+-----
+7. 외부에서 웹페이지 접속
+win box 프로그램을 활용해서 Firewall에 접속하고 +버튼 클릭후 다음과 같이 설정합니다. <br>
 
