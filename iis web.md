@@ -39,3 +39,9 @@ test입니다. </br>
 홈페이지 접속시에 기본으로 보여질 문서를 설정합니다. 마우스 오른쪽 버튼 클릭 -> '추가'
 ![주석 2020-05-22 165247](https://user-images.githubusercontent.com/63625609/82644700-b537c500-9c4c-11ea-9bba-dbd04e75b772.png) <br>
 test.html을 기본문서 항목에 추가합니다. <br>
+![주석 2020-05-22 165500](https://user-images.githubusercontent.com/63625609/82644888-00ea6e80-9c4d-11ea-8368-b5507405932c.png) <br>
+생성된 기본문서 항목입니다. 맨 위에 위치하도록 해줍니다.
+
+-----
+6.웹 페이지 열기
+
