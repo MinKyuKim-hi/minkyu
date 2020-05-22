@@ -58,3 +58,6 @@ dstnat 설정 입니다. <br>
 ![주석 2020-05-22 170458](https://user-images.githubusercontent.com/63625609/82645790-6c810b80-9c4e-11ea-876a-00161979fec2.png) <br>
 ![주석 2020-05-22 170513](https://user-images.githubusercontent.com/63625609/82645795-6e4acf00-9c4e-11ea-88e3-f9681a91209b.png) <br>
 srcnat 설정 입니다.  <br>
+dnszi.com 에 접속해서 웹 포워딩을 설정해줍니다. <br>
+![주석 2020-05-22 170150](https://user-images.githubusercontent.com/63625609/82645980-bc5fd280-9c4e-11ea-955f-a005d2dc207b.png) <br>
+test.go20.co.kr로 접속하면 
