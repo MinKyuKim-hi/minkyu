@@ -142,4 +142,38 @@ print 는 모든 경로 등을 표시합니다. 현재 레벨의 항목 목록�
 [CTRL] + [X] 를 눌러 안전 모드로 들어갑니다. 변경 사항을 저장하고 안전 모드를 종료하려면 [CTRL] + [X] 를 다시 눌러야 합니다. 변경 사항을 저장하지
 않고 종료하려면 [CTRL] + [D] 를 눌러야 합니다. <br>
 `ip route> [CTRL] + [X]` <br>
-`ip route <SAFE>`
+`ip route <SAFE>` <br>
+![2009-04-06_1317](https://user-images.githubusercontent.com/63625609/82620979-c7960c80-9c14-11ea-8346-c7a75f367a28.png) <br>
+사용된 메세지 안전 모드가 표시되고 세션이 이제 안전 모드에 있음을 나타 내기 위해 프롬프트가 변경됩니다. 라우터가 안전 모드에 있는 동안 (다른 로그인
+세션에서도) 이루어진 모든 구성 변경은 안전 모드 세션이 비정상적으로 종료되면 자동으로 취소됩니다. 시스템 히스토리에서 F 플래그로 자동 태그 취소되는
+모든 변경 사항을 볼 수 있습니다. <br>
+` [admin@MikroTik] ip route> <br>
+[Safe Mode taken] <br>
+[admin@MikroTik] ip route<SAFE> add <br>
+[admin@MikroTik] ip route<SAFE> /system history print` <br>
+이제 텔넷 연결 (또는 winbox 터미널)이 끊어지면 잠시후 (TCP 시간 초과는 9분) 안전 모드에서 이루어진 모든 변경 사항이 취소됩니다. [Ctrl] + [D] 로 
+세션을 종료 하면 모든 안전 모드 변경이 취소되지만 /quit 는 그렇지 않습니다. 다른 사용자가 안전 모드로 들어가려고 하면 아래 메세지가 출력됩니다. 
+`[admin@MikroTik] > <br>
+Hijacking Safe Mode from someone - unroll/release/don't take it [u/r/d]:` <br>
+[u] : 모든 안전 모드 변경을 취소하고 현재 세션을 안전 모드로 설정합니다. <br>
+[r] : 모든 현재 안전 모드 변경 사항을 유지하고 현재 세션을 안전 모드로 설정합니다. 안전 모드의 이전 소유자에게 다음에 대한 알림이 표시됩니다.
+     `[admin@MikroTik] ip firewall rule input <br> 
+     [Safe mode released by another user]` <br>
+[d] : 모든 것을 그대로 둡니다. <br>
+안전 모드에 있는 동안 너무 많은 변경이 수행되고 모든 기록을 수용할 공간이 없는 경우 (현재 기록은 최대 100개의 최신 작업을 유지함) 세션이 자동으로 
+안전 모드에서 해제되고 변경 사항이 자동으로 취소되지 않습니다. 따라서 안전 모드에서 작은 단계로 구성을 변경하는 것이 가장 좋습니다. [Ctrl] + [X] 
+를 두번 누르면 안전 모드 작업 목록을 비울 수 있습니다. 
+
+-----
+**핫락 모드** <br>
+HotLock mode가 활성화되면 명령이 자동으로 완료됩니다. <br>
+HotLock mode를 시작 / 종료 하려면 [CTRL] + [V]를 눌러야 합니다. <br>
+`[admin@MikroTik] /ip address> [CTRL]+[V] <br>
+[admin@MikroTik] /ip address>>` <br>
+이중에 >> 은 HotLock 모드가 활성화 되었음을 나타냅니다. 예를 들어 /in e 를 입력하면 다음과 같이 자동완성 됩니다. <br>
+`[admin@MikroTik] /ip address>> /interface ethernet` <br>
+Quick Help Menu(빠른 도움말 메뉴) <br>
+F6 키는 터미널 하단에 메뉴를 활성화하여 공통 키 조합과 사용법을 보여줍니다. <br>
+`[admin@RB493G] >  <br>
+tab compl ? F1 help ^V hotlk ^X safe ^C brk ^D quit`
+
