@@ -44,4 +44,6 @@ test.html을 기본문서 항목에 추가합니다. <br>
 
 -----
 6.웹 페이지 열기
+![주석 2020-05-22 165801](https://user-images.githubusercontent.com/63625609/82645173-6dfe0400-9c4d-11ea-97fa-a121b2404c8e.png) <br>
+기본 경로인 "C:\inetpub\wwwroot" 에 test html파일을 복사해서 옮겨놓고 기본경로 설정을 바꿔줍니다.
 
