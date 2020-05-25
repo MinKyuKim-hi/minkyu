@@ -5,7 +5,7 @@
 *버튼 / 체크박스* <br>
 - Connect(연결) : 라우터에 연결
 - Connect To Romon(Romon에 연결) : Romon Agent에 연결
-- Add/set(추가/설정) : 관리 탭에서 저장된 라우터 항목을 저장 / 편집합니다.
+- Add/set(추가/설정) : managed(관리) 탭에서 저장된 라우터 항목을 저장 / 편집합니다.
 - Open In New Window(새 창에서 열기) : 로더를 백그라운드에서 열린 상태로 두고 연결되는 각 장치에 대한 새 창을 엽니다.
 
 -----
