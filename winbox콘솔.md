@@ -147,10 +147,10 @@ print 는 모든 경로 등을 표시합니다. 현재 레벨의 항목 목록�
 사용된 메세지 안전 모드가 표시되고 세션이 이제 안전 모드에 있음을 나타 내기 위해 프롬프트가 변경됩니다. 라우터가 안전 모드에 있는 동안 (다른 로그인
 세션에서도) 이루어진 모든 구성 변경은 안전 모드 세션이 비정상적으로 종료되면 자동으로 취소됩니다. 시스템 히스토리에서 F 플래그로 자동 태그 취소되는
 모든 변경 사항을 볼 수 있습니다. <br>
-` [admin@MikroTik] ip route> <br>
-[Safe Mode taken] <br>
-[admin@MikroTik] ip route<SAFE> add <br>
-[admin@MikroTik] ip route<SAFE> /system history print` <br>
+`[admin@MikroTik] ip route>` <br>
+`[Safe Mode taken]` <br>
+`[admin@MikroTik] ip route<SAFE> add` <br>
+`[admin@MikroTik] ip route<SAFE> /system history print` <br>
 이제 텔넷 연결 (또는 winbox 터미널)이 끊어지면 잠시후 (TCP 시간 초과는 9분) 안전 모드에서 이루어진 모든 변경 사항이 취소됩니다. [Ctrl] + [D] 로 
 세션을 종료 하면 모든 안전 모드 변경이 취소되지만 /quit 는 그렇지 않습니다. 다른 사용자가 안전 모드로 들어가려고 하면 아래 메세지가 출력됩니다. 
 `[admin@MikroTik] > <br>
