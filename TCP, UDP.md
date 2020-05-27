@@ -68,3 +68,5 @@ UDP는 비연결형 서비스이기 때문에 연결을 설정하고 해제하�
 
 -----
 *교환방식* <br>
+<img width="262" alt="99816B3359FDD25205" src="https://user-images.githubusercontent.com/63625609/82963030-c8f07c00-9ffc-11ea-8d6f-09bcde71b54e.png"> <br>
+*UDP Flow* <br>
