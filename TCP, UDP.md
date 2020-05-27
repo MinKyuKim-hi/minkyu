@@ -64,3 +64,7 @@ UDP는 비연결형 서비스이기 때문에 연결을 설정하고 해제하�
 
 -----
 3.TCP와 UDP의 비교 <br>
+<img width="387" alt="990C0F3359FDD3F80C" src="https://user-images.githubusercontent.com/63625609/82962934-9181cf80-9ffc-11ea-8f8c-d6cea0935c60.png">
+
+-----
+*교환방식* <br>
