@@ -8,4 +8,10 @@
  - 인증 헤더(AH)
  - 보안 페이로드 캡슐화(ESP)
  - 보안 연관(SA)
- 3.동작 방식
+ 3.동작 방식 <br>
+ - 전송 모드(Transport mode)
+ - 터널 모드(Tunnel mode)
+ 4.암호화 알고리즘 <br>
+ - HMAC-SHA1
+ - Triple DES-CBC
+ - AES-CBC
