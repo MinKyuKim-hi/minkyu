@@ -17,7 +17,7 @@ ch, 5: Redirect, 8: Echo Request, 11: Time Exceeded) <br>
 송신측의 전송 패킷이 목적지 호스트나 라우터에 도착했는지를 확인하는데 사용됩니다. 송신측 호스트는 목적지 호스트에 대해서 `ICMP Echo Request` 메세지를 
 송신하고, 목적지 호스트로부터 `ICMP Echo Reply` 메세지가 회신되면 무사히 전송된 것으로 인식합니다. <br>
 6.ICMP Destination Unreachable 메세지 <br>
-라우터가 특정 호스트에 패킷을 목적지에 보내지 못할 경우, 송신 호스트에 대해 'ICMP Destination Unreachable` 메세지를 보냅니다. 이 메세지 안에는 목
+라우터가 특정 호스트에 패킷을 목적지에 보내지 못할 경우, 송신 호스트에 대해 `ICMP Destination Unreachable` 메세지를 보냅니다. 이 메세지 안에는 목
 적지까지 전송되지 못한 이유를 나타내는 정보가 포함됩니다. 목적지 호스트의 IP주소의 경로를 찾아내지 못한 라우터는 이 메세지를 다시 송신측 라우터로 되
 돌려보내는 것입니다. <br>
 7.ICMP Redirect 메세지 <br>
