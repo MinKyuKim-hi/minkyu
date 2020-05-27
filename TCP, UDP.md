@@ -72,3 +72,4 @@ UDP는 비연결형 서비스이기 때문에 연결을 설정하고 해제하�
 *UDP Flow* <br>
 <img width="410" alt="99C5C63359FEB5DC06" src="https://user-images.githubusercontent.com/63625609/82963084-e7567780-9ffc-11ea-9cbd-217b517f6fdc.png"> <br>
 *TCP Flow* <br>
+<img width="410" alt="9934293359FEB5EE38" src="https://user-images.githubusercontent.com/63625609/82963132-fe956500-9ffc-11ea-84e0-8f57e2ce2f5f.png">
