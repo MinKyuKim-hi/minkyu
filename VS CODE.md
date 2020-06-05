@@ -26,9 +26,9 @@ VS CODE는 소스 코드 편집기로 다양한 프로그래밍 언어를 지원
 
 ----
 *유용한 단축키* <br>
-- Ctrl+P : 빠른 파일 열기 <br>
-- Ctrl+F : 텍스트 찾기 <br>
-- Ctrl+R : 텍스트 바꾸기 <br>
+- Ctrl+P : 빠른 파일 열기 
+- Ctrl+F : 텍스트 찾기 
+- Ctrl+R : 텍스트 바꾸기 
 - Ctrl+Shift+P : 명령어 보기 <br>
 - Ctrl+A : 전체 선택 <br>
 - Ctrl+K+F : 코딩 자동 정렬 <br>
